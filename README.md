@@ -22,10 +22,16 @@ Body: Measurement Model
 # Recursos Fotográficos Pruebas PostMan:
 ![image](https://user-images.githubusercontent.com/77985120/187038981-73d4ee76-3253-4012-9b63-ae7de5e88881.png)
 
-Cambiar una medida dado su identificador
+# Cambiar una medida dado su identificador
 Path: “/measurements/<id>” o “/measurements/?id=<id>”
 Method: “PUT” o "PATCH"
 Body: Measurement Model
-Borrar una medida dado su identificador
+# Recursos Fotográficos Pruebas PostMan:
+![image](https://user-images.githubusercontent.com/77985120/187039074-d431de36-4b1c-430e-9b50-8639ca15b429.png)
+
+# Borrar una medida dado su identificador
 Path: “/measurements/<id>” o “/measurements/?id=<id>”
 Method: “DELETE”
+#  Recursos Fotográficos Pruebas PostMan:
+![image](https://user-images.githubusercontent.com/77985120/187039093-34ee1a39-696f-482d-9796-9f776a055db6.png)
+
