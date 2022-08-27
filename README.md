@@ -4,8 +4,8 @@ Daniel Bernal -
 Javier Cerino - j.cerino - 202020873
 
 •	Consultar la lista de todas las medidas (measurements) 
-o	Path: “/measurements”
-o	Method: “GET”
+  o	Path: “/measurements”
+  o	Method: “GET”
 # Recursos Fotográficos Pruebas PostMan:
 ![image](https://user-images.githubusercontent.com/77985120/187037892-ad12babd-7b62-4056-b884-b3d12f115fe0.png)
 
