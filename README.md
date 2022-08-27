@@ -1,20 +1,30 @@
 # Monitoring Views Workshop
+Integrantes Grupo 1 Pareja 2:
+Daniel Bernal - 
+Javier Cerino - j.cerino - 202020873
 
-* if you want a easy installation use **pipenv\*** else use **requirements.txt**
+•	Consultar la lista de todas las medidas (measurements) 
+o	Path: “/measurements”
+o	Method: “GET”
+o	#Recursos Fotográficos Pruebas PostMan:
+![image](https://user-images.githubusercontent.com/77985120/187037892-ad12babd-7b62-4056-b884-b3d12f115fe0.png)
 
-**pipenv:** can be installed wih:
+•	Consultar una medida dado su identificador
+o	Path: “/measurements/?id=<id>”
+o	Method: “GET”
+o	#Recursos Fotográficos Pruebas PostMan:
+![image](https://user-images.githubusercontent.com/77985120/187037944-88437c7f-06f2-4799-84e1-ee08c7c7bfa7.png)
 
-```bash
-pip install pipenv
-```
+•	Crear una medida
+o	Path: “/measurements”
+o	Method: “POST”
+o	Body: Measurement Model
+o	#Recursos Fotográficos Pruebas PostMan:
 
-dont forget to check if you have the right python version: 3.8
-
-* Executing with pipenv 
-```bash
-pipenv run python {command}
-```
-Example:
-```bash
-pipenv run python manage.py makemigrations 
-```
+•	  Cambiar una medida dado su identificador
+o	Path: “/measurements/<id>” o “/measurements/?id=<id>”
+o	Method: “PUT” o "PATCH"
+o	Body: Measurement Model
+•	Borrar una medida dado su identificador
+o	Path: “/measurements/<id>” o “/measurements/?id=<id>”
+o	Method: “DELETE”
