@@ -1,6 +1,6 @@
 # Monitoring Views Workshop
 Integrantes Grupo 1 Pareja 2:
-Daniel Bernal - 
+Daniel Bernal - da.bernalc1 - 202020706
 Javier Cerino - j.cerino - 202020873
 
 # Consultar la lista de todas las medidas (measurements) 
